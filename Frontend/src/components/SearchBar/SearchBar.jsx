@@ -4,9 +4,9 @@ import {
     Input, 
     InputGroup, 
     InputRightAddon,
-    Box
+    Box,
+    InputRightElement
 } from '@chakra-ui/react';
-
 
 export default function SearchBar({ onChange }) {
     return (
@@ -26,6 +26,7 @@ export default function SearchBar({ onChange }) {
           borderRadius={10}
           w='80%'
           onChange={onChange}
+          pr="4.5rem"
         />
       </InputGroup>
     );
